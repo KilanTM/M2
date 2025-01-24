@@ -32,7 +32,7 @@ public class Main {
 
     public static void main(String[] args) {
         SlotMachine user = new SlotMachine(100);
-        SlotMachine machine = new SlotMachine(10000);
+        SlotMachine machine = new SlotMachine(100000);
         List<String> spinHistory = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
 
